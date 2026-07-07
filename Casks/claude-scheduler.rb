@@ -7,7 +7,7 @@ cask "claude-scheduler" do
   desc "Menu bar app that runs headless Claude Code tasks on a launchd schedule"
   homepage "https://github.com/tornikegomareli/claude-scheduler"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ClaudeScheduler.app"
 
