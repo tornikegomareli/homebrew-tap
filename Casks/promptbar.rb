@@ -1,6 +1,6 @@
 cask "promptbar" do
-  version "0.1.0"
-  sha256 "1deceb6be551a1d19d29aea9664577b6cda8f493b91b8cecdc4a7c73756e7dc1"
+  version "0.1.1"
+  sha256 "298861980decc3fdd5e9d834dcc59bd6f0cbb0f17464fdc30e164e821cc7276e"
 
   url "https://github.com/tornikegomareli/PromptBar/releases/download/v#{version}/PromptBar-#{version}.zip"
   name "PromptBar"
@@ -11,14 +11,6 @@ cask "promptbar" do
   depends_on arch: :arm64
 
   app "PromptBar.app"
-
-  # The app is ad-hoc signed (not notarized); clear quarantine so the
-  # first launch isn't blocked by Gatekeeper.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/PromptBar.app"],
-                   sudo: false
-  end
 
   uninstall quit: "com.promptbar.app"
 
