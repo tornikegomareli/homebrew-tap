@@ -1,6 +1,6 @@
 cask "promptbar" do
-  version "0.1.1"
-  sha256 "298861980decc3fdd5e9d834dcc59bd6f0cbb0f17464fdc30e164e821cc7276e"
+  version "0.2.0"
+  sha256 "e367bf013eb418e05a616e982b4332d2e2e82b78ced971a7612f1d488ebd54a1"
 
   url "https://github.com/tornikegomareli/PromptBar/releases/download/v#{version}/PromptBar-#{version}.zip"
   name "PromptBar"
@@ -21,10 +21,15 @@ cask "promptbar" do
   ]
 
   caveats <<~EOS
-    PromptBar runs in the menu bar with no Dock icon. Press ⇧⌥Space to open it.
+    PromptBar runs in the menu bar with no Dock icon. Press ⇧⌥Space to open it,
+    or ⇧⌥E to rewrite the clipboard in place.
 
     Enhancement needs Apple Intelligence switched on:
       System Settings → Apple Intelligence & Siri
     Until it is enabled, PromptBar says so and offers to open that pane.
+
+    The optional Compile chip, which appears when you select text in other apps,
+    is off by default and needs Accessibility access. Turn it on in
+    PromptBar → Settings → General → Selection. Nothing else asks for a permission.
   EOS
 end
