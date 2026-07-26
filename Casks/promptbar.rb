@@ -7,7 +7,7 @@ cask "promptbar" do
   desc "Menu bar prompt compiler powered by Apple's on-device Foundation Models"
   homepage "https://github.com/tornikegomareli/PromptBar"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
   depends_on arch: :arm64
 
   app "PromptBar.app"
