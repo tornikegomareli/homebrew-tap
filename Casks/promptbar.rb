@@ -1,6 +1,6 @@
 cask "promptbar" do
-  version "0.2.0"
-  sha256 "e367bf013eb418e05a616e982b4332d2e2e82b78ced971a7612f1d488ebd54a1"
+  version "0.2.1"
+  sha256 "59ecb0c0bb20684e6fd4880e5b5a59fa773093c9dae7afacd9f6c8d431490dbd"
 
   url "https://github.com/tornikegomareli/PromptBar/releases/download/v#{version}/PromptBar-#{version}.zip"
   name "PromptBar"
