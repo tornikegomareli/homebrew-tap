@@ -1,6 +1,6 @@
 cask "findsfsymbols" do
-  version "0.1.0"
-  sha256 "a5cc0a48e383709b5b6822f61f9de3971bd215746dfdaaf6749a5342ebbbb485"
+  version "0.1.1"
+  sha256 "804624ca8640e2ea19142e83dc42cf18595d692e6a98c9e15ecdae27853bbbe5"
 
   url "https://github.com/tornikegomareli/FindSFSymbols/releases/download/v#{version}/FindSFSymbols-#{version}.zip"
   name "FindSFSymbols"
