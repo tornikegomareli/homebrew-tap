@@ -7,7 +7,7 @@ cask "findsfsymbols" do
   desc "Semantic SF Symbols search with a physics pile"
   homepage "https://tornikegomareli.github.io/FindSFSymbols/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "FindSFSymbols.app"
 
