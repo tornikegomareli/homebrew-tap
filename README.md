@@ -19,9 +19,11 @@ brew install tornikegomareli/tap/apple-launcher-icons
 
 - **claude-scheduler**: Menu bar app that runs headless Claude Code tasks on a launchd schedule
 - **promptbar**: Menu bar prompt compiler powered by Apple's on-device Foundation Models
+- **spacewalk**: Instant, animated switching between macOS Spaces, with a `spacewalk` command
 
 ```bash
 brew install --cask tornikegomareli/tap/promptbar
+brew install --cask tornikegomareli/tap/spacewalk
 ```
 
 ## Available Formulas
