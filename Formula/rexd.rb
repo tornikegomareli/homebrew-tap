@@ -1,7 +1,6 @@
 class Rexd < Formula
   desc "Plugin manager and process supervisor for Rex"
   homepage "https://github.com/tornikegomareli/rexd"
-  version "0.2.1"
   license "MIT"
 
   on_macos do
