@@ -29,3 +29,4 @@ brew install --cask tornikegomareli/tap/spacewalk
 ## Available Formulas
 
 - **apple-launcher-icons**: Generate app icons for Apple platforms from a single PNG file
+- **rexd**: Plugin manager and process supervisor for Rex
