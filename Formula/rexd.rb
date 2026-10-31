@@ -5,23 +5,23 @@ class Rexd < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/tornikegomareli/rexd/releases/download/v0.2.1/rexd_darwin_arm64.tar.gz"
-      sha256 "46c82574b2b127b8e9928c3766f27a94b11eb8a45f99e0407f4a639bea4a9523"
+      url "https://github.com/tornikegomareli/rexd/releases/download/v0.2.2/rexd_darwin_arm64.tar.gz"
+      sha256 "df2f94c3a47811191df19567d3e4af038697ab97f55f29ce18c45584ab2558cc"
     end
     on_intel do
-      url "https://github.com/tornikegomareli/rexd/releases/download/v0.2.1/rexd_darwin_amd64.tar.gz"
-      sha256 "f369314839ab158b0f0452b76fe88e46fca7fd50ef3fb0dbc29c4b7f7f5dec3e"
+      url "https://github.com/tornikegomareli/rexd/releases/download/v0.2.2/rexd_darwin_amd64.tar.gz"
+      sha256 "8d31c93c1d30d3de6bb9ce52ed5abc7dca3efce5610c3537a29fba85ad34435c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tornikegomareli/rexd/releases/download/v0.2.1/rexd_linux_arm64.tar.gz"
-      sha256 "9196a4067ba5d05e3c9ceb404cedebe4c3710df9f6cf5ace61457dde6fa43e95"
+      url "https://github.com/tornikegomareli/rexd/releases/download/v0.2.2/rexd_linux_arm64.tar.gz"
+      sha256 "0f54e528499cc23dda5b254e2c3bf3a468082fa346b1e68aacd338dfac628e98"
     end
     on_intel do
-      url "https://github.com/tornikegomareli/rexd/releases/download/v0.2.1/rexd_linux_amd64.tar.gz"
-      sha256 "54eb71afbc3468432fad7bba19040ad508e25a22acb792c15df014d8126b2ad6"
+      url "https://github.com/tornikegomareli/rexd/releases/download/v0.2.2/rexd_linux_amd64.tar.gz"
+      sha256 "426331341c357bd01920865d0c9cc20d41e5b22ec33bedc7ac9465d5a727f7d7"
     end
   end
 
