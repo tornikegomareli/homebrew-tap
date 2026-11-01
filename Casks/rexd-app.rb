@@ -7,14 +7,16 @@ cask "rexd-app" do
   desc "Menu bar app that controls rexd, the plugin manager for Rex"
   homepage "https://github.com/tornikegomareli/rexd"
 
-  depends_on formula: "tornikegomareli/tap/rexd"
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Rexd.app"
 
   zap trash: "~/Library/Preferences/io.github.tornikegomareli.rexd.menu.plist"
 
   caveats <<~EOS
+    Rexd controls the rexd command. If you do not have it yet:
+      brew install tornikegomareli/tap/rexd
+
     Open Rexd once. It lives in the menu bar, and it can start at login from its menu.
   EOS
 end
