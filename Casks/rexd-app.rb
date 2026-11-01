@@ -1,6 +1,6 @@
 cask "rexd-app" do
-  version "0.3.1"
-  sha256 "a64ae993321677343a7cddf3e0a4f938c8a8257af5d07743d4186962c308f178"
+  version "0.3.2"
+  sha256 "31fbaabbaf40c71c161481196b1c35d68223fa878be1829d85f1d8ec3ec2f9cb"
 
   url "https://github.com/tornikegomareli/rexd/releases/download/v#{version}/Rexd-#{version}.zip"
   name "Rexd"
